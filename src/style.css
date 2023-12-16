@@ -1,0 +1,33 @@
+#root{
+    width:50%;
+    height: 70vh;
+    position:absolute ;
+    left:25%;
+    top:15%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    justify-content: space-between;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+
+}
+button{
+    background:#0C6BF2;
+    color:white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+   position: absolute;
+   left:45%;
+}
+p{
+    color: red;
+}
